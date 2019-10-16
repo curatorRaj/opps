@@ -5,7 +5,7 @@ struct Book
 	char author[100];
 	char title[100];
 	int price;
-	
+
 };
 
 int main()
@@ -24,12 +24,12 @@ int main()
 		cin>>c;
 
 	}
-	cout << "======================================================\n";
+	cout<<"........................................";
 	cout <<"author\t title\t price\t\n";
-	cout << "=====================================================\n";
+	cout<<"........................................";
 	for ( i = 0; i < 2; ++i)
 	{
-		
+
 		cout << books[i].author <<"\t"<< books[i].title <<"\t"<< books[i].price<<"\n" ;
 
 	}
